@@ -12,7 +12,7 @@ curr = conn.cursor()
 str1 = "select * from student"
 curr.execute(str1)
 output = curr.fetchall()
-# print(output)
+print(output)
 
 output_dict = {}
 
