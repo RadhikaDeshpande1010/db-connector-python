@@ -28,6 +28,6 @@ conn = pymysql.connect(
 cur = conn.cursor()
 dynamic_query = generate_dynamic_table_query()
 cur.execute(dynamic_query)
-print("Table created successfully")
+print("Table created successfully in mysql database")
 conn.commit()
 conn.close()
